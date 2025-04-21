@@ -3,10 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
-import {ArrowRight, Brain, MoveLeftIcon as PairLeft, Search, Shirt, FootprintsIcon as Socks} from "lucide-react";
+import {ShieldCheck, TrendingUp, ChartNoAxesCombined, BarChart3, ArrowRight, Brain, MoveLeftIcon as PairLeft, Search, Shirt, FootprintsIcon as Socks} from "lucide-react";
 import homeData from "@/content/home.json";
 
 const iconMap: Record<string, JSX.Element> = {
+    ShieldCheck: <ShieldCheck className="h-6 w-6 text-primary" />,
+    TrendingUp: <TrendingUp className="h-6 w-6 text-primary" />,
+    ChartNoAxesCombined: <ChartNoAxesCombined className="h-6 w-6 text-primary" />,
+    BarChart3: <BarChart3 className="h-6 w-6 text-primary" />,
     Search: <Search className="h-6 w-6 text-primary" />,
     MoveLeftIcon: <PairLeft className="h-6 w-6 text-primary" />,
     Shirt: <Shirt className="h-6 w-6 text-primary" />,

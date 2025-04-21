@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Never Lose Another Sock Again",
-    "subtitle": "SockBuddy uses AI to help you manage your sock collection, track pairs, and find missing socks.",
+    "title": "Financial Risk Intelligence Automated",
+    "subtitle": "Leverage AI-powered insights to monitor financial exposure, detect anomalies in real-time, and make confident decisions faster than ever.",
     "cta": [
       {
         "label": "Get Started",
@@ -18,38 +18,38 @@
     }
   },
   "features": {
-    "title": "Smart Sock Management",
-    "subtitle": "Our AI-powered features make sock management effortless and even fun.",
+    "title": "Smart Stock Management",
+    "subtitle": "FinRiskAI delivers cutting-edge features that help you identify risks, automate decisions, and gain deep financial insights.",
     "items": [
       {
-        "icon": "Search",
-        "title": "Sock Finder",
-        "description": "Take a photo of a single sock and our AI will help you find its match in your collection."
+        "icon": "ShieldCheck",
+        "title": "Anomaly Detection",
+        "description": "Instantly detect irregularities in transactions, expenses, or revenue patterns with AI-powered alerts."
       },
       {
-        "icon": "MoveLeftIcon",
-        "title": "Pair Tracker",
-        "description": "Keep track of all your sock pairs and get notified when a sock goes missing."
+        "icon": "TrendingUp",
+        "title": "Predictive Risk Scoring",
+        "description": "Get real-time risk scores for assets, clients, or vendors based on financial data and behavioral trends."
       },
       {
-        "icon": "Shirt",
-        "title": "Outfit Matcher",
-        "description": "Our AI suggests the perfect socks to match your outfit based on color and style."
+        "icon": "ChartNoAxesCombined",
+        "title": "Automated Reporting",
+        "description": "Generate and deliver audit-ready financial reports with zero manual effort.\n\n"
       }
     ]
   },
   "how_it_works": {
-    "title": "Powered by Advanced AI",
-    "subtitle": "Our sophisticated algorithms make sock management smarter than ever.",
+    "title": "Powered by Advanced Financial Intelligence\n",
+    "subtitle": "Our AI engines process financial data in real time to help you uncover risks, predict outcomes, and take action automatically.",
     "steps": [
       {
-        "title": "Computer Vision",
-        "description": "Our AI uses advanced computer vision to identify sock patterns, colors, and materials from photos you take.",
-        "icon": "Brain"
+        "title": "Real-Time Data Ingestion",
+        "description": "Our platform ingests and processes live financial streams to ensure up-to-date analysis, insights, and actions — instantly.",
+        "icon": "BarChart3"
       },
       {
-        "title": "Pattern Matching",
-        "description": "The system learns your sock collection over time and can identify pairs with 99% accuracy.",
+        "title": "AI-Powered Pattern Recognition",
+        "description": "Machine learning models detect suspicious behavior, irregular trends, or unusual spending patterns before they become threats.",
         "icon": "Brain"
       }
     ],
@@ -98,8 +98,8 @@
     ]
   },
   "cta": {
-    "title": "Ready to Organize Your Sock Drawer?",
-    "subtitle": "Join thousands of happy users who never lose a sock again.",
+    "title": "Ready to Automate Your Financial Intelligence?",
+    "subtitle": "Join forward-thinking teams using AI to uncover risk, drive insights, and take action with confidence.",
     "buttons": [
       {
         "label": "Get Started for Free",
