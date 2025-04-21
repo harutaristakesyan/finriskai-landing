@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "title": "Never Lose Another Sock Again",
+    "subtitle": "SockBuddy uses AI to help you manage your sock collection, track pairs, and find missing socks.",
+    "cta": [
+      {
+        "label": "Get Started",
+        "href": "/signup"
+      },
+      {
+        "label": "Learn More",
+        "href": "#how-it-works"
+      }
+    ],
+    "image": {
+      "src": "/placeholder.svg?height=550&width=550",
+      "alt": "SockBuddy App Interface"
+    }
+  },
+  "features": {
+    "title": "Smart Sock Management",
+    "subtitle": "Our AI-powered features make sock management effortless and even fun.",
+    "items": [
+      {
+        "icon": "Search",
+        "title": "Sock Finder",
+        "description": "Take a photo of a single sock and our AI will help you find its match in your collection."
+      },
+      {
+        "icon": "MoveLeftIcon",
+        "title": "Pair Tracker",
+        "description": "Keep track of all your sock pairs and get notified when a sock goes missing."
+      },
+      {
+        "icon": "Shirt",
+        "title": "Outfit Matcher",
+        "description": "Our AI suggests the perfect socks to match your outfit based on color and style."
+      }
+    ]
+  },
+  "how_it_works": {
+    "title": "Powered by Advanced AI",
+    "subtitle": "Our sophisticated algorithms make sock management smarter than ever.",
+    "steps": [
+      {
+        "title": "Computer Vision",
+        "description": "Our AI uses advanced computer vision to identify sock patterns, colors, and materials from photos you take.",
+        "icon": "Brain"
+      },
+      {
+        "title": "Pattern Matching",
+        "description": "The system learns your sock collection over time and can identify pairs with 99% accuracy.",
+        "icon": "Brain"
+      }
+    ],
+    "image": {
+      "src": "/placeholder.svg?height=400&width=500",
+      "alt": "AI Technology Visualization"
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that works best for your sock collection.",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "description": "Perfect for casual sock wearers",
+        "features": [
+          "Track up to 10 sock pairs",
+          "Basic sock finder",
+          "Community support"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "$4.99",
+        "description": "For the sock enthusiast",
+        "badge": "Popular",
+        "features": [
+          "Unlimited sock pairs",
+          "Advanced AI sock finder",
+          "Outfit matching suggestions",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Family",
+        "price": "$9.99",
+        "description": "For households with many socks",
+        "features": [
+          "Everything in Premium",
+          "Up to 5 user accounts",
+          "Sock ownership tracking",
+          "24/7 premium support"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Organize Your Sock Drawer?",
+    "subtitle": "Join thousands of happy users who never lose a sock again.",
+    "buttons": [
+      {
+        "label": "Get Started for Free",
+        "href": "/signup"
+      },
+      {
+        "label": "Watch Demo",
+        "href": "/demo"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "SockBuddy",
+    "links": [
+      {
+        "label": "Terms",
+        "href": "#"
+      },
+      {
+        "label": "Privacy",
+        "href": "#"
+      },
+      {
+        "label": "Contact",
+        "href": "#"
+      }
+    ]
+  }
+}
