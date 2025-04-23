@@ -1,12 +1,13 @@
 import {LineChart} from "lucide-react";
 import Link from "next/link";
-import {Button} from "@/components/ui/button";
 import {
     NavigationMenu,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
 } from "@/components/ui/navigation-menu";
+import LoginDialog from "@/components/auth/LoginDialog";
+import SignupDialog from "@/components/auth/SignupDialog";
 
 export default function Header() {
     return (
@@ -16,7 +17,7 @@ export default function Header() {
                 <div className="flex items-center gap-8">
                     <div className="flex items-center gap-2">
                         <LineChart className="h-6 w-6"/>
-                        <span className="text-xl font-bold">FinRisk</span>
+                        <Link href='/' className="text-xl font-bold">FinRisk</Link>
                     </div>
 
                     <NavigationMenu className="hidden md:flex">
@@ -25,8 +26,7 @@ export default function Header() {
                                 <NavigationMenuLink asChild>
                                     <Link
                                         href="#features"
-                                        className="text-sm font-medium hover:underline underline-offset-4"
-                                    >
+                                        className="text-sm font-medium hover:underline underline-offset-4">
                                         Features
                                     </Link>
                                 </NavigationMenuLink>
@@ -53,16 +53,10 @@ export default function Header() {
                     </NavigationMenu>
                 </div>
 
-                {/* Right: Buttons */}
+                {/* Right: Auth Buttons with Dialogs */}
                 <div className="flex items-center gap-4">
-                    <Link href="/login">
-                        <Button variant="ghost" size="sm">
-                            Log in
-                        </Button>
-                    </Link>
-                    <Link href="/signup">
-                        <Button size="sm">Register</Button>
-                    </Link>
+                    <LoginDialog />
+                    <SignupDialog />
                 </div>
             </div>
         </header>

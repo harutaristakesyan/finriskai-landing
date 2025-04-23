@@ -13,7 +13,7 @@
       }
     ],
     "image": {
-      "src": "/placeholder.svg?height=550&width=550",
+      "src": "/Dashboard.png",
       "alt": "SockBuddy App Interface"
     }
   },
@@ -60,40 +60,28 @@
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the plan that works best for your sock collection.",
+    "subtitle": "Choose the plan that works best for your use case.",
     "plans": [
       {
         "name": "Free",
         "price": "$0",
-        "description": "Perfect for casual sock wearers",
-        "features": [
-          "Track up to 10 sock pairs",
-          "Basic sock finder",
-          "Community support"
-        ]
+        "features": ["Track up to 10 stock points", "Basic Community support"],
+        "button": "Get Started",
+        "highlighted": false
       },
       {
-        "name": "Premium",
+        "name": "Popular",
         "price": "$4.99",
-        "description": "For the sock enthusiast",
-        "badge": "Popular",
-        "features": [
-          "Unlimited sock pairs",
-          "Advanced AI sock finder",
-          "Outfit matching suggestions",
-          "Priority support"
-        ]
+        "features": ["Basic stock finder", "Advanced AI accounts", "Community support"],
+        "button": "Subscribe",
+        "highlighted": true
       },
       {
         "name": "Family",
         "price": "$9.99",
-        "description": "For households with many socks",
-        "features": [
-          "Everything in Premium",
-          "Up to 5 user accounts",
-          "Sock ownership tracking",
-          "24/7 premium support"
-        ]
+        "features": ["Everything in premium", "Up to 5 user accounts", "24/7 premium support"],
+        "button": "Subscribe",
+        "highlighted": false
       }
     ]
   },
@@ -112,7 +100,7 @@
     ]
   },
   "footer": {
-    "brand": "SockBuddy",
+    "brand": "FinRisk",
     "links": [
       {
         "label": "Terms",
